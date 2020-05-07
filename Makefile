@@ -31,9 +31,9 @@ autobuild:
 	# curl -sf https://gobinaries.com/cespare/reflex | sh
 	reflex -g '*.go' -- sh -c 'echo "\n\n\n\n\n\n" && make build'
 
-## docker-build: build project into a docker container image
-.PHONY: docker-build
-docker-build: test
+## dockerbuild: build project into a docker container image
+.PHONY: dockerbuild
+dockerbuild: test
 	docker-compose build
 
 ## start: build and run local project
