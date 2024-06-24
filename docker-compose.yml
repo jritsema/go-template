@@ -5,3 +5,4 @@ services:
     image: app:0.1.0
     environment:
       FOO: bar 
+
