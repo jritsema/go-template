@@ -28,3 +28,4 @@ func handleSigTerms() {
 		os.Exit(1)
 	}()
 }
+
