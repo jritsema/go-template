@@ -8,4 +8,3 @@ FROM alpine:latest
 WORKDIR /root/
 COPY --from=build /go/src/app/app .
 CMD ["./app"]
-
